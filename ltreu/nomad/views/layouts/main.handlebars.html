@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {{!-- Bootstrap 3 --}}
+    {{!-- <link rel="stylesheet" type="text/css" href="/lib/bootstrap-3/css/bootstrap.min.css" /> --}}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    {{!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous"> --}}
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <p>testing 1 2 3</p>
+
+            <!-- SLIDER -->
+
+            <section class="slider d-flex align-items-center">
+        <!-- <img src="images/slider.jpg" class="img-fluid" alt="#"> -->
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="slider-title_box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content_wrap">
+                                    <h1>Discover great places in New york</h1>
+                                    <h5>Let's uncover the best places to eat, drink, and shop nearest to you.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <form class="form-wrap mt-4">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <input type="text" placeholder="What are your looking for?" class="btn-group1">
+                                        <input type="text" placeholder="New york" class="btn-group2">
+                                        <button type="submit" class="btn-form"><span class="icon-magnifier search-icon"></span>SEARCH<i class="pe-7s-angle-right"></i></button>
+                                    </div>
+                                </form>
+                                {{!-- <div class="slider-link"> --}}
+                                    {{!-- <a href="#">Browse Popular</a><span>or</span> <a href="#">Recently Addred</a> --}}
+                                {{!-- </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--// SLIDER -->
+
+            <div class="col-sm-8 col-sm-offset-2">
+                {{{body}}}
+                {{!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> --}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{{!-- Task List Start --}}
+<h1 class="page-header">Todo List <a href="/add-task" class="btn btn-success pull-right">Add Task</a></h1>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Task List <span class="badge">5</span></h3>
+    </div>
+    <div class="panel-body">
+        <ul class="list-group">
+            {{#each taskList}}
+            <li class="list-group-item">
+                {{title}}
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="panel-footer">
+        Last Updated : {{lastAdded}}
+    </div>
+</div>
+{{!-- Task List End --}}
