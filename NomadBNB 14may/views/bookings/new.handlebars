@@ -1,0 +1,17 @@
+{{!-- <% layout('../layout') -%> --}}
+<div class="container">
+  <div class="starter-template">
+
+    <h1>Book a listing</h1>
+
+    <p>You've chosen the following item:</p>
+    {{!-- <%= listing.name %><br> --}}
+    {{!-- <%= listing.description%><br> --}}
+    {{!-- Available on: <%= new Date(listing.available).toDateString() %><br><br> --}}
+    <div>
+      <form action="/bookings/new" method="post">
+        <input type="submit" value="Request to book"></input>
+      </form>
+    </div>
+  </div>
+</div>

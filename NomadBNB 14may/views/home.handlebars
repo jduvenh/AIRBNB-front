@@ -1,0 +1,27 @@
+
+{{!-- <p>Welcome to Nomad</p> --}}
+
+<section class="jumbotron">
+    <div class="container">
+       <div class="row text-center">
+        <h1 class="page-header">Nomad</h>
+      <h2>Find the perfect accommodation</h2>
+        <div class="btn-group">
+          <form id="filterForm" method="get" class="form-inline" action="/listings_filter">
+            <div class="form-group">
+              <div class="col-xs-5 date">
+                <div class="input-group input-append date" id="datePicker">
+                  <input type="date" class="form-control" name="filter_date" require/>
+                </div>
+              </div>
+            </div>
+          <div class="form-group">
+            <div class="col-xs-5 col-xs-offset-3">
+              <button type="submit" class="btn btn-default">Look for an available listing</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
